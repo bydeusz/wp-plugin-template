@@ -1,0 +1,25 @@
+{
+    "name": "bydeusz/wp-plugin-boilerplate",
+    "description": "A WordPress plugin boilerplate.",
+    "autoload": {
+        "psr-4": {
+            "Admin\\": "admin/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tadeusz de Ruijter",
+            "email": "hello@bydeusz.com"
+        }
+    ],
+    "require": {
+        "openai-php/client": "^0.10.1",
+        "symfony/http-client": "^7.1",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
