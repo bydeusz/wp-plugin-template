@@ -21,6 +21,9 @@ require_once __DIR__ . '/admin/GenerateButton.php';
 require_once __DIR__ . '/admin/PromptField.php';
 require_once __DIR__ . '/admin/Settings.php';
 require_once __DIR__ . '/admin/ContentCount.php';
+require_once __DIR__ . '/admin/PageOverview.php';
+require_once __DIR__ . '/admin/Order.php';
+require_once __DIR__ . '/admin/BulkChange.php';
 
 use OpenAI;
 
